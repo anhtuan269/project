@@ -1,0 +1,41 @@
+@media screen and (min-width: 320px) {
+    .link {
+        background: url(/images/testimonial-bg.jpg);
+        background-position: center center;
+        background-size: cover;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pdl {
+        padding-left:0.5rem;
+    }
+    .link .container .row .link-area {
+        text-align: center;
+    }
+    .link .container .row .link-area h2 {
+        font-family: "Lora", serif;
+        font-weight: normal;
+        line-height: 50px;
+        font-size: 32px;
+    }
+    .link .container .row .link-area ol {
+        display: flex;
+        justify-content: center;
+    }
+    .link .container .row .link-area ol li {
+        color: #222222;
+        font-size: 14px;
+    }
+    .link .container .row .link-area ol li:not(:first-child)::before {
+        padding-right: 0.5rem;
+        content:'/';
+        color: #222;
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 768px) {
+    .link {
+        padding-top: 95px;
+        padding-bottom: 95px;
+    }
+}

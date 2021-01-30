@@ -1,0 +1,82 @@
+@media screen and (min-width: 320px) {
+    .pd5 {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .experts .container .title {
+        text-align: center;
+    }
+    .experts .container .title h2 {
+        display: inline-block;
+        padding-bottom: 22px;
+        font-weight: 400;
+        color: #222;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .experts .container .title p {
+        font-size: 14px;
+        line-height: 23px;
+        font-weight: 300;
+        color: #222;
+    }
+    .experts .container .experts-content {
+        padding-top: 25px;
+    }
+    .experts .container .experts-content .single-expert {
+        text-align: center;
+        margin-top: 30px;
+
+    }
+    .experts .container .experts-content .single-expert .info {
+        margin-top: 20px;
+    }
+    .experts .container .experts-content .single-expert .info h4.name {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 700;
+        color: #222222;
+        margin-bottom: 0;
+        font-family: "Rubik", sans-serif;
+    }
+    .experts .container .experts-content .single-expert .info p {
+        font-weight: 300;
+        color: #222;
+    }
+}
+@media screen and (min-width: 768px) {
+    .pd5 {
+        padding-top:90px;
+        padding-bottom:100px;
+    }
+    .experts .container {
+        padding: 0;
+    }
+    .experts .container .title h2 {
+        font-size: 40px;
+        font-weight: 48px;
+    }
+    .experts .container .title p {
+        font-size: 16px;
+        width:520px;
+        margin: auto;
+    }
+    .experts .container .experts-content {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .experts .container .experts-content .single-expert {
+        padding: 0 15px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .experts .container .experts-content {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .experts .container .title p {
+        width: 580px;
+    }
+}

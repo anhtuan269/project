@@ -1,0 +1,175 @@
+@media screen and (min-width: 320px ) {
+    .mt15 {
+        margin-top: 15px;
+    }
+    .single-info .container .shop-single-info {
+        border: 1px solid #e1e1e1;
+        padding: 10px 20px 17px;
+        margin-top: 100px;
+    }
+    .single-info .container .shop-single-info .info-tab .nav {
+        display: flex;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #e1e1e1;
+        justify-content: center;
+    }
+    .single-info .container .shop-single-info .info-tab .nav li {
+        margin-right: 15px;
+    } 
+    .single-info .container .shop-single-info .info-tab .nav li a {
+        font-size: 16px;
+        font-weight: 500;
+        transition: all 0.3s linear;        
+    }
+    .single-info .container .shop-single-info .info-tab .nav li a.active {
+        color: #f33f4f;
+    }
+    .pd25 {
+        padding-top: 25px;
+    }
+    .single-info .container .shop-single-info .info-content .description p {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .single-info .container .shop-single-info .info-content .reviews {
+        margin-top: 25px;
+        padding: 15px;
+        border: 1px solid #ECECEC;
+    }
+    .single-info .container .shop-single-info .info-content .reviews .review-title {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Rubik", sans-serif;
+        margin-bottom: 0.5rem;
+    }
+    .single-info .container .shop-single-info .info-content .reviews .review-items {
+        padding-top: 25px;
+    }
+    .single-info .container .shop-single-info .info-content .reviews .review-items li .single-review {
+        padding: 24px 0;
+        border-top: 1px solid #ececec;
+    }
+    .single-info .container .shop-single-info .info-content .reviews .review-items li .single-review h6 {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Rubik", sans-serif;
+        color: #222222;
+        margin-bottom: 0.5rem;
+    }
+    .single-info .container .shop-single-info .info-content .reviews .review-items li .single-review .rating ul li {
+        margin: 0 1px;
+        color: #f33f4f;
+        font-size: 12px;
+        line-height: 14px;
+        display: inline-block;
+    }
+    .single-info .container .shop-single-info .info-content .reviews .review-items li .single-review .rating {
+        display: flex;
+        align-items: center;
+    }
+    .single-info .container .shop-single-info .info-content .reviews .review-items li .single-review .rating  span {
+        display: inline-block;
+        font-size: 13px;
+        color: #666666;
+        margin-left: 10px;
+    }
+    .single-info .container .shop-single-info .info-content .reviews .review-items p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .single-info .container .shop-single-info .info-content .reviews .review-form form .single-form .form-name {
+        margin-top:15px;
+    }
+    .single-info .container .shop-single-info .info-content .reviews .review-form form label {
+        display: block;
+        line-height: 1;
+        margin-bottom: 8px;
+        font-weight: 400;
+        text-transform: capitalize;
+        font-size: 13px;
+    }
+    .single-info .container .shop-single-info .info-content .reviews .review-form form .single-form .form-name input {
+        border: 1px solid #e5e5e5;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-radius: 0;
+        background-color: #ffffff;
+        margin-bottom: 0;
+        padding: 0px 15px;
+        max-width: 100%;
+        width: 100%;
+        font-size: 14px;
+        height: 40px;
+        font-weight: 400;
+        color: #222222;
+    }
+    .single-info .container .shop-single-info .info-content .reviews .review-form form .review-rating ul li {
+        display: inline-block;
+        font-size: 14px;
+        color: #f34f3f;
+        margin: 0 2px;
+        cursor: pointer
+    }
+    .single-info .container .shop-single-info .info-content .reviews .review-form form .review-rating ul li i {
+        font-weight: 300;
+    }
+    .single-info .container .shop-single-info .info-content .reviews .review-form form .body textarea {
+        border: 1px solid #e5e5e5;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        color: #7e7e7e;
+        border-radius: 0;
+        background-color: #ffffff;
+        margin-bottom: 0;
+        padding: 0px 15px;
+        max-width: 100%;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        color: #222222;
+        height: 275px;
+        resize: none;
+    }
+    .single-info .container .shop-single-info .info-content .reviews .review-form form .submit button {
+        height: 36px;
+        line-height: 36px;
+        padding: 0 20px;
+        font-size: 12px;
+        background-color: #343a40;
+        color: #fff;
+        display: inline-block;
+        font-weight: 700;
+        border: 1px solid #334433;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+    }
+}
+@media screen and (min-width: 768px) {
+    .single-info .container .shop-single-info  {
+        padding: 20px 30px 27px;
+    }
+    .single-info .container .shop-single-info .info-tab .nav li {
+        margin-right: 35px;
+    }
+    .single-info .container .shop-single-info .info-tab .nav li a {
+        font-size: 20px;
+    }
+    .single-info .container .shop-single-info .info-content .description p {
+        font-size: 16px;
+    }
+    .single-info .container .shop-single-info .info-content .reviews .review-title {
+        font-size: 24px;
+    }
+    .single-info .container .shop-single-info .info-content .reviews .review-form form .submit button {
+        height: 44px;
+        line-height: 44px;
+        padding: 0 30px;
+        font-size: 14px;
+    }
+    .single-info .container .shop-single-info .info-content .reviews .review-form form .single-form  {
+        display: grid;
+        grid-template-columns: 49% 49%;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

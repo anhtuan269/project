@@ -1,0 +1,255 @@
+.cart {
+    padding: 60px 0 0px;
+}
+.cart .container {
+    padding: 0 15px;
+}
+.cart .container .cart-title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 15px;
+}
+.cart .container .table-content table > tbody tr .name a:hover {
+    color:#f34f3f;
+    transition: all 0.3s ease;
+}
+@media screen and (min-width: 320px) {
+    .cart {
+        padding: 60px 0 0px;
+    }
+    .cart .container {
+        padding: 0 15px;
+    }
+    .cart .container .cart-title h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0 0 15px;
+    }
+    .cart .container .table-responsive {
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .cart .container .table-content table {
+        width: 100%;
+        margin-bottom: 1rem;
+        color: #212529;
+        vertical-align: top;
+        border:1px solid #dee2e6;
+    }
+    .cart .container .table-content table > thead {
+        background-color: #e1e1e1;
+    }
+    .cart .container .table-content table > thead tr th {
+        background-color: #fff;
+        border: 1px solid #e5e5e5 !important;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: #222222;
+        padding: 15px;
+        text-align: center;
+        background: none;
+        min-width: 140px;
+    }
+    .cart .container .table-content table > tbody tr td {
+        border: 1px solid #e1e1e1;
+        text-align: center;
+        vertical-align: middle;
+        padding: 15px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #222222;
+    }
+    .cart .container .table-content table > tbody tr .thumbnail {
+        height: auto;
+    }
+    .cart .container .table-content table > tbody tr .thumbnail a img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    .cart .container .table-content table > tbody tr td.name {
+        text-align: left;
+    }
+    .cart .container .table-content table > tbody tr .name a {
+        color: #222222;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
+    .cart .container .table-content table > tbody tr .quantity span {
+        font-weight: 500;
+        color: #222222;
+        font-size: 14px;
+        padding-right: 30px;
+    }
+    .cart .container .table-content table > tbody tr .quantity .cart-plus-minus {
+        position: relative;
+        width: 150px;
+        margin: auto;
+    }
+    .cart .container .table-content table > tbody tr .quantity .cart-plus-minus input {
+        width: 150px;
+        border-bottom: 2px solid #ccc;
+        text-align: center;
+        padding: 0 10px;
+        color: #222;
+        font-size: 14px;
+        font-weight:400;
+        height:40px;
+    }
+    .cart .container .table-content table > tbody tr .quantity .cart-plus-minus .dec  {
+        position: absolute;
+        left: 0;
+        padding: 1px 6px;
+        font-size: 28px;
+        color: #ccc;
+        top:50%;
+        transform: translateY(-50%);
+    }
+    .cart .container .table-content table > tbody tr .quantity .cart-plus-minus .inc  {
+        position: absolute;
+        right: 0;
+        padding: 1px 6px;
+        font-size: 22px;
+        color: #ccc;
+    }   
+    .cart .container .cart-update {
+        padding-top: 5px
+    }
+    .cart .container .cart-update .shipping {
+        margin-top: 15px;
+    }
+    .cart .container .cart-update .shipping a {
+        padding: 0 20px ;
+        background-color: #f34f3f;
+        color: #fff;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 36px;
+        height: 36px;
+        text-transform: uppercase;
+        letter-spacing: .3px;
+        transition: all 0.3s ease;
+        border-radius: 1px solid #f34f3f;
+        border-radius: 3px;
+    }
+    .cart .container .cart-update .shipping a:hover {
+        background-color: #f34f3f;
+        color: #fff;
+    }  
+    .mr5 {
+        margin-right: 5px;
+    } 
+    .cart .container .cart-update .cart-clear {
+        margin-top: 15px;
+    }
+    .cart .container .cart-update .cart-clear   a:hover {
+        background-color: #f34f3f;
+        color: #fff;
+    }
+    
+    .cart .container .cart-update .cart-clear a {
+        padding: 0 20px;
+        background-color: #fff;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 36px;
+        text-transform: uppercase;
+        display: inline-block;
+        transition: all 0.3s ease;
+        color:#222;
+        border-radius: 3px;
+        height: 36px;
+        border: 1px solid #e6e6e6;
+
+    }
+}
+@media screen and (min-width: 480px) {
+    /* .cart .container .cart-update {
+        display: block;
+        padding: 30px 0px 15px;
+    }
+    .cart .container .cart-update .shipping a {
+        padding: 18px 40px 17px;
+        background-color: #f2f2f2;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1;
+        text-transform: capitalize;
+        letter-spacing: .3px;
+        transition: all 0.3s ease;
+    }
+    .cart .container .cart-update .shipping a:hover {
+        background-color: #f34f3f;
+        color: #fff;
+    }
+    .cart .container .cart-update .cart-clear   a:hover {
+        background-color: #f34f3f;
+        color: #fff;
+    }
+    .cart .container .cart-update .cart-clear a {
+        padding: 0 20px;
+        background-color: #f2f2f2;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 36px;
+        text-transform: uppercase;
+        display: inline-block;
+        transition: all 0.3s ease;
+        color:#222;
+        border-radius: 3px;
+        height: 36px;
+        border-radius: 1px solid #e6e6e6;
+    } */
+}
+@media screen and (min-width: 768px) {
+    
+    .cart .container .cart-update {
+        display: flex;
+        justify-content: space-between;
+    }
+    .cart .container .cart-update .shipping a {
+        height: 44px;
+        line-height: 44px;
+        padding: 0 30px;
+        font-size: 14px;
+    }
+    .cart .container .cart-update .cart-clear a {
+        height: 44px;
+        line-height: 44px;
+        padding: 0 30px;
+        font-size: 14px;
+    }
+    .cart {
+        padding: 90px 0 0px;
+    }
+}
+@media screen and ( min-width: 1200px) {
+    
+    .cart .container .table-content table > tbody tr .thumbnail img {
+        width: 128px;
+        text-align: center;
+        margin: auto;
+    }
+    .cart .container .table-content table > tbody tr .quantity .cart-plus-minus {
+        position: relative;
+        width: 120px;
+        margin: auto;
+    }
+    .cart .container .table-content table > tbody tr .quantity .cart-plus-minus input {
+        width: 120px;
+        border-bottom: 2px solid #ccc;
+        text-align: center;
+        padding: 0 10px;
+        color: #222;
+        font-size: 14px;
+        font-weight:400;
+        height:40px;
+    }
+   
+}

@@ -1,0 +1,65 @@
+@media screen and (min-width: 320px ) {
+    .empty {
+        padding-top: 50px;
+        padding-bottom: 60px
+    }
+    .empty .container .empty-content {
+        text-align: center;
+
+    }
+    .empty .container .empty-content h2 {
+        margin-bottom: 0.5rem;
+        color: #222222;
+        font-family: "Rubik", sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 0;
+        line-height: 1.5;
+    }
+    .empty .container .empty-content .empty-cart {
+        width: 110px;
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+    .empty .container .empty-content p {
+        font-size: 16px;
+        text-transform: capitalize;
+        margin-top: 30px;
+        color: #222222;
+        margin-bottom: 1rem;
+    }
+    .empty .container .empty-content a {
+        border-radius: 3px;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 13px;
+        height: 36px;
+        line-height: 36px;
+        padding: 0 20px;
+        background-color: #f34f3f;
+        border:1px solid  #f34f3f;
+        color: #ffffff;
+        display: inline-block;
+        position: relative;
+        text-transform: uppercase;
+    }
+    .empty .container .empty-content a:hover {
+        background-color: #292d32;
+        border: 1px solid #293d32;
+    }
+}
+@media screen and (min-width: 768px) {
+    .empty {
+        padding-top: 90px;
+        padding-bottom: 100px
+    }
+    .empty .container .empty-content h2 {
+        font-size: 35px;
+    }
+    .empty .container .empty-content a {
+        height: 44px;
+        line-height: 44px;
+        padding: 0 30px;
+    }
+
+}

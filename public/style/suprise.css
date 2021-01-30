@@ -1,0 +1,97 @@
+@media screen and (min-width: 320px) {
+    .pd4 {
+        padding-top: 10px;
+    }
+    
+    .suprise .container .suprise-container .image {
+        margin-top: 45px;
+    }
+    .suprise .container .suprise-container .suprise-content {
+        margin-top: 40px;
+    }
+    .suprise .container .suprise-container .suprise-content .title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-family: 'Rubik', sans-serif;
+    }
+    .suprise .container .suprise-container .suprise-content p {
+        margin-top: 17px;
+        font-weight: 300;
+        margin-bottom: 1rem;
+    }
+    .suprise .container .suprise-container .suprise-content ul li {
+        padding-left: 4px;
+        list-style: disc;
+        margin-left: 15px;
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: 4px;
+    }
+    .suprise .container .suprise-container .suprise-content ul li::marker {
+        unicode-bidi: isolate;
+        font-variant-numeric: tabular-nums;
+        text-transform: none;
+        text-indent: 0px !important;
+        text-align: start !important;
+        text-align-last: start !important;
+    }
+    .suprise .container .suprise-container .suprise-content .suprise-btn {
+        margin-top: 40px;
+    }
+    .suprise .container .suprise-container .suprise-content .suprise-btn .btn {
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 0 20px;
+        color: #fff;
+        background-color: #f34f3f;
+        font-weight: 700;
+        border-radius: 100px;
+        display: inline-block;
+        height: 36px;
+        line-height: 36px;
+        border: 1px solid #f34f3f;
+    }
+}
+@media screen and (min-width: 768px) {
+    .pd4 {
+        padding-top: 50px;
+    }
+    .suprise .container .suprise-container .suprise-content .suprise-btn .btn {
+        height: 44px;
+        line-height: 44px;
+        padding: 0 30px;
+        font-size: 14px;
+    }
+    .suprise .container .suprise-container .suprise-content .title {
+        font-size: 31px;
+        line-height: 39px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .suprise .container {
+        padding: 0;
+    }
+    .suprise .container .suprise-container {
+        display: grid;
+        grid-template-columns: 49% 51%;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .suprise .container .suprise-container .image {
+        padding: 0 15px;
+    }
+    .suprise .container .suprise-container .suprise-content {
+        padding: 0 15px;
+        text-align: left;
+    }
+    .suprise .container .suprise-container .suprise-content .about {
+        padding-left: 30px;
+    }
+    .suprise .container .suprise-container .suprise-content .suprise-btn .btn {
+        height: 50px;
+        line-height: 48px;
+        padding: 0 35px;
+    }
+}

@@ -1,0 +1,163 @@
+
+@media screen and (min-width: 320px) {
+    .pd5 {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .blog {
+        background-color: #f7f7f7;
+    }
+    .blog .container .title {
+        text-align: center;
+    }
+    .blog .container .title h2 {
+        display: inline-block;
+        padding-bottom: 22px;
+        font-weight: 400;
+        color: #222;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .blog .container .title p {
+        font-size: 14px;
+        line-height: 23px;
+        font-weight: 300;
+        color: #222;
+    }
+    .blog .container .owl-theme .owl-dots {
+        display: none;
+    }
+    .blog .container  .owl-theme .owl-nav .owl-prev {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-60%);
+        left:0px;
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+    }
+    .blog .container  .owl-theme .owl-nav .owl-prev:hover {
+        background: none!important;
+    }
+    .blog .container  .owl-theme .owl-nav .owl-next:hover {
+        background: none!important;
+    }
+    .blog .container  .owl-theme .owl-nav .owl-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-60%);
+        right:0px;
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+    }
+    .blog .container  .blog-slide:hover .owl-nav .owl-prev {
+        opacity: 1;
+        visibility: visible;
+    }
+    .blog .container  .blog-slide:hover .owl-nav .owl-prev:focus{
+        list-style: none;
+        outline: none!important;
+    }
+    .blog .container  .blog-slide:hover .owl-nav .owl-next {
+        opacity: 1;
+        visibility: visible;
+    }
+    .blog .container  .owl-theme .owl-nav span {
+        font-size: 40px;
+        font-weight: 300;
+        color: #222;
+        transition:all 0.3s ease;
+    }
+    .blog .container  .owl-theme .owl-nav span:hover {
+        color: #f34f3f;
+    }
+    .blog .container .blog-slide {
+        padding-top: 25px;
+    }
+    .blog .container .blog-slide .single-blog {
+        margin-top: 30px;
+    } 
+    .blog .container .blog-slide .single-blog .blog-content {
+        text-align: left;
+        padding-top: 27px;
+    }
+    .blog .container .blog-slide .single-blog .blog-content h4.title {
+        font-family: "Lora", serif;
+        color: #222222;
+        font-weight: 600;
+        margin-top: 0;
+        line-height: 1.5;
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 0.5rem;
+    }
+    .blog .container .blog-slide .single-blog .blog-content h4.title a {
+        font-size: 18px;
+        font-family: "Rubik", sans-serif;
+        text-transform: capitalize;
+        line-height: 21px;
+        margin-bottom: 5px;
+        font-weight: 500;
+        color: #222222;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
+    .blog .container .blog-slide .single-blog .blog-content p {
+        margin-bottom: 21px;
+        font-size: 13px;
+        line-height: 15px;
+        color: #323232;
+    }
+    .blog .container .blog-slide .single-blog .blog-content p span {
+        color: #f34f3f;
+    }
+    .blog .container .blog-slide .single-blog .blog-content .blog-info p {
+        padding-bottom: 21px;
+        border-bottom: 1px solid #e1e1e1;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 16px;
+        color: #323232;
+    }
+    .blog .container .blog-slide .single-blog .blog-content .blog-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    .blog .container .blog-slide .single-blog .blog-content .blog-footer a {
+        font-size: 14px;
+        line-height: 14px;
+        text-decoration: underline;
+        display: inline-block;
+    }
+    .blog .container .blog-slide .single-blog .blog-content .blog-footer a:hover {
+        color: #f34f3f;
+    }
+    .blog .container .blog-slide .single-blog .blog-content .blog-footer p {
+        font-size: 18px;
+        color: #323232;
+    }
+    .blog .container .blog-slide .single-blog .blog-content .blog-footer p i {
+        margin-right: 5px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .pd5 {
+        padding-top: 90px;
+        padding-bottom: 100px;
+    }
+    .blog .container {
+        padding: 0;
+    }
+    .blog .container .blog-slide {
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .blog .container .blog-slide .single-blog {
+        padding: 0 15px;
+    }
+}

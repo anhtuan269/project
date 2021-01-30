@@ -1,0 +1,223 @@
+@media screen and (min-width: 320px) {
+    .open .container  {
+        padding: 0 15px;
+    }
+    .open {
+        padding-bottom: 60px;
+    }
+    .mt40 {
+        margin-top: 40px;
+    }
+    .open .container .cart-tax h4 {
+        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+        font-size: 18px;
+        color: #222222;
+        text-transform: uppercase;
+        position: relative;
+        line-height: 18px;
+        margin-bottom: 0.5rem;
+    }
+    
+    .open .container .cart-tax .tax {
+        margin-top:22px;
+    }
+    .open .container .cart-tax .tax .tax-select p {
+        margin-bottom: 1rem;
+    }
+    .open .container .cart-tax .tax .tax-select .select label {
+        font-size: 14px;
+        margin: 0 0 5px;
+        font-weight: 400;
+    }
+    .open .container .cart-tax .tax .tax-select .select  {
+            margin-top: 15px;
+    }
+    .mg {
+        margin-bottom: 26px;
+
+    }
+    .open .container .cart-tax .tax .tax-select .select select {
+        display: block;
+        width: 100%;
+        border: 1px solid #ebebeb;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        color: #242424;
+        font-size: 14px;
+        height: 40px;
+        padding: 0 20px 0 15px;
+        width: 100%;
+        cursor: pointer;
+        background-color: #fff;
+    }
+    .open .container .cart-tax .tax .tax-select .select input[type="text"] {
+        border: 1px solid #e5e5e5;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        color: #7e7e7e;
+        border-radius: 0;
+        background-color: #ffffff;
+        margin-bottom: 0;
+        padding: 0px 15px;
+        max-width: 100%;
+        width: 100%;
+        font-size: 14px;
+        height: 40px;
+        font-weight: 400;
+        color: #222222;
+    }
+    .open .container .cart-tax .tax .tax-select .btn-2:hover {
+        background-color:#292d32;
+        border: 1px solid #292d32;
+    }
+    .pd15 {
+        padding-top: 15px;
+    }
+    .open .container .cart-tax .tax .tax-select .btn-2 {
+        height: 40px;
+        line-height: 38px;
+        font-weight: 500;
+        border-radius: 3px;
+        display: inline-block;
+        position: relative;
+        text-transform: uppercase;
+        border: 1px solid #f34f3f;
+        background-color: #f34f3f;
+        color:#fff;
+        font-size: 12px;
+        padding: 0 20px
+    }
+    .open .container .cart-tax .tax> h5 {
+        font-size: 14px;
+        margin: 36px 0 27px;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+    }
+    .open .container .cart-tax .total {
+        padding:15px 20px;
+        background-color: #f7f7f7;
+        margin-top: 25px;
+    }
+    .open .container .cart-tax .total table {
+        width: 100%;
+        color: #212529;
+        vertical-align: top;
+        border-color: #dee2e6;
+    }
+    .open .container .cart-tax .total table tbody tr .shipping {
+        position: absolute;
+        top: 5px;
+    }
+    .open .container .cart-tax .total table tbody tr td {
+        padding: 5px 0;
+        border-top: 0;
+        border-bottom: 1px solid rgba(21, 25, 29, 0.1);
+        position: relative;
+        font-size: 14px;
+    }
+    .open .container .cart-tax .total table tbody tr td input {
+        position: absolute;
+        left: -9999px;
+        top: 0;
+        opacity: 0;
+        width: 0;
+        height: 0;
+        visibility: hidden;
+        margin: 0;
+    }
+    .open .container .cart-tax .total table tbody tr td label {
+        display: inline-block;
+        line-height: 23px;
+        position: relative;
+        padding-left: 15px;
+        min-width: 22px;
+        min-height: 22px;
+        cursor: pointer;
+        margin: 0;
+    }
+    .open .container .cart-tax .total table tbody tr td label span {
+        padding-left: 8px;
+    }
+    .open .container .cart-tax .total table tbody tr td label::before {
+        content: "";
+        width: 13px;
+        height: 13px;
+        display: block;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        top: 5px;
+        border: 1px solid #222222;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+    }
+    .open .container .cart-tax .total table tbody tr td label::after {
+        content: "";
+        display: block;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        top: 5px;
+        width: 13px;
+        height: 13px;
+        background-color: #222222;
+        opacity: 0;
+        -webkit-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+    }
+    .open .container .cart-tax .total table tbody tr td label.checked::after {
+        opacity: 1;
+    }
+    .open .container .cart-tax .btn-3 {
+        height: 40px;
+        line-height: 38px;
+        font-weight: 500;
+        border-radius: 3px;
+        display: inline-block;
+        position: relative;
+        text-transform: uppercase;
+        border: 1px solid #f34f3f;
+        background-color: #f34f3f;
+        color:#fff;
+        font-size: 12px;
+        padding: 0 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .open .container .cart-tax  .btn-3:hover {
+        background-color:#292d32;
+        border: 1px solid #292d32;
+    }
+}
+@media screen and (min-width: 768px) {
+   
+    .open {
+        padding-bottom: 100px;
+    }
+    .open .container .cart-tax .tax .tax-select .btn-2 {
+        font-size: 14px;
+    }
+    .open .container .cart-tax .btn-3 {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .open .container .open-grid {
+        display: grid;
+        grid-template-columns: 64.5% 33%;
+        justify-content: space-between;
+    }
+     .open .container .open-grid .two-cart {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        justify-content: space-between;
+    }
+    
+}

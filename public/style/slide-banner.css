@@ -1,0 +1,117 @@
+@media screen and (min-width: 320px) {
+    .banner {
+        background: url(/images/testimonial-bg.jpg) no-repeat ;
+        background-position: center center;
+        background-size: cover;
+    }
+    .banner .container .testimonial {
+        padding-top: 90px;
+        padding-bottom: 95px;
+        position: relative;
+    }
+    .banner .container .owl-theme .owl-dots {
+        display: none;
+    }
+    .banner .testimonial .banner-content p {
+        font-size: 16px;
+        line-height: 28px;
+        font-style: italic;
+        font-family: "Lora", serif;
+        color: #222;
+        text-align: center;
+    }
+    .banner .testimonial .banner-content .testimonial-author {
+        padding-top: 22px;
+        text-align: center;
+    }
+    .banner .testimonial .banner-content .testimonial-author img {
+        width: 87px;
+        height: 87px;
+        margin: auto;
+    }
+    .banner .testimonial .banner-content .testimonial-author span {
+        display: block;
+        margin-top: 17px;
+        color: #222222;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    .banner .container  .owl-theme .owl-nav .owl-prev {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-60%);
+        left:0px;
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+    }
+    .banner .container  .owl-theme .owl-nav .owl-prev:hover {
+        background: none!important;
+    }
+    .banner .container  .owl-theme .owl-nav .owl-next:hover {
+        background: none!important;
+    }
+    .banner .container  .owl-theme .owl-nav .owl-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-60%);
+        right:0px;
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+    }
+    .banner .container  .testimonial:hover .owl-nav .owl-prev {
+        opacity: 1;
+        visibility: visible;
+    }
+    .banner .container  .testimonial:hover .owl-nav .owl-prev:focus{
+        list-style: none;
+        outline: none!important;
+    }
+    .banner .container  .testimonial:hover .owl-nav .owl-next {
+        opacity: 1;
+        visibility: visible;
+    }
+    .banner .container  .owl-theme .owl-nav span {
+        font-size: 40px;
+        font-weight: 300;
+        color: #222;
+        transition:all 0.3s ease;
+    }
+    .banner .container  .owl-theme .owl-nav span:hover {
+        color: #f34f3f;
+    }
+}
+@media screen and (min-width: 768px) {
+    .banner .testimonial .banner-content p {
+        padding: 0 100px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .banner .container  .owl-theme .owl-nav .owl-prev {
+        left: 15%;
+    }
+    .banner .container  .owl-theme .owl-nav .owl-next {
+        right: 15%;
+    }
+    .banner .container  .owl-theme .owl-nav span {
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+}
+@media screen and (min-width: 1200px) {
+    .banner .testimonial .banner-content p {
+        padding: 0 147px;
+    }
+    .banner .container  .owl-theme .owl-nav .owl-prev {
+        left: 13%;
+    }
+    .banner .container  .owl-theme .owl-nav .owl-next {
+        right: 13%;
+    }
+}
