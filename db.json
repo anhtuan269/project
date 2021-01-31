@@ -1,0 +1,223 @@
+{
+  "products": [
+    {
+      "img": "/images/product-1.jpg",
+      "img1": "/images/product-2.jpg",
+      "name": "Sweet Alyssum",
+      "curent": "$50.00",
+      "old": "$70.00",
+      "discount": "-34%",
+      "soldout": "soldout"
+    },
+    {
+      "img": "/images/product-2.jpg",
+      "img1": "/images/product-3.jpg",
+      "name": "Sweet Alyssum",
+      "curent": "$50.00",
+      "old": "$70.00",
+      "discount": "-34%",
+      "soldout": "soldout"
+    },
+    {
+      "img": "/images/product-3.jpg",
+      "img1": "/images/product-4.jpg",
+      "name": "Sweet Alyssum",
+      "curent": "$50.00",
+      "old": "$70.00",
+      "discount": "-34%",
+      "soldout": "soldout"
+    },
+    {
+      "img1": "/images/product-5.jpg",
+      "img": "/images/product-4.jpg",
+      "name": "Sweet Alyssum",
+      "curent": "$50.00",
+      "old": "$70.00",
+      "discount": "-34%",
+      "soldout": "soldout",
+      "count": "00",
+      "day": "Days",
+      "hour": "Hour",
+      "min": "min",
+      "sec": "sec"
+    },
+    {
+      "img": "/images/product-5.jpg",
+      "img1": "/images/product-6.jpg",
+      "name": "Sweet Alyssum",
+      "curent": "$50.00",
+      "old": "$70.00",
+      "discount": "-34%",
+      "soldout": "soldout"
+    },
+    {
+      "img": "/images/product-6.jpg",
+      "img1": "/images/product-7.jpg",
+      "name": "Sweet Alyssum",
+      "curent": "$50.00",
+      "old": "$70.00",
+      "discount": "-34%",
+      "soldout": "soldout"
+    },
+    {
+      "img": "/images/product-7.jpg",
+      "img1": "/images/product-8.jpg",
+      "name": "Sweet Alyssum",
+      "curent": "$50.00",
+      "old": "$70.00",
+      "discount": "-34%",
+      "soldout": "soldout"
+    },
+    {
+      "img": "/images/product-8.jpg",
+      "img1": "/images/product-9.jpg",
+      "name": "Sweet Alyssum",
+      "curent": "$50.00",
+      "old": "$70.00",
+      "discount": "-34%",
+      "soldout": "soldout"
+    },
+    {
+      "img": "/images/product-9.jpg",
+      "img1": "/images/product-1.jpg",
+      "name": "Sweet Alyssum",
+      "curent": "$50.00",
+      "old": "$70.00",
+      "discount": "-34%",
+      "soldout": "soldout"
+    }
+  ],
+  "slides": [
+    {
+      "h5": "20% Off For",
+      "b": " New Members",
+      "special": "Your Special Day",
+      "p": "We are here for you special day",
+      "start": "Start Shopping"
+    },
+    {
+      "h5": "20% Off For",
+      "b": " New Members",
+      "special": "Your Special Day",
+      "p": "We are here for you special day",
+      "start": "Start Shopping"
+    }
+  ],
+  "banners": [
+    {
+      "poem": "Felis eu pede mollis pretium. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus lingua. felis eu pede mollis pretium.",
+      "author": "Torvi / COO",
+      "img": "/images/testimonial-img-1.png"
+    },
+    {
+      "poem": "Felis eu pede mollis pretium. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus lingua. felis eu pede mollis pretium.",
+      "author": "Torvi / COO",
+      "img": "/images/testimonial-img-2.png"
+    }
+  ],
+  "blogs": [
+    {
+      "img": "/images/blog-01.jpg",
+      "alt": "Blog Image",
+      "title": "Flower Beaty",
+      "by": "By",
+      "span": "Shopify Team HasTheme / August 12, 2020",
+      "lorem": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid...",
+      "footer": " Continute Reading",
+      "count": "0"
+    },
+    {
+      "img": "/images/blog-02.jpg",
+      "alt": "Blog Image",
+      "title": "Flower Florists",
+      "by": "By",
+      "span": "Shopify Team HasTheme / August 12, 2020",
+      "lorem": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid...",
+      "footer": " Continute Reading",
+      "count": "0"
+    },
+    {
+      "img": "/images/blog-03.jpg",
+      "alt": "Blog Image",
+      "title": "Flower Power",
+      "by": "By",
+      "span": "Shopify Team HasTheme / August 12, 2020",
+      "lorem": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid...",
+      "footer": " Continute Reading",
+      "count": "0"
+    },
+    {
+      "img": "/images/blog-01.jpg",
+      "alt": "Blog Image",
+      "title": "Flower Beaty",
+      "by": "By",
+      "span": "Shopify Team HasTheme / August 12, 2020",
+      "lorem": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid...",
+      "footer": " Continute Reading",
+      "count": "0"
+    },
+    {
+      "img": "/images/blog-02.jpg",
+      "alt": "Blog Image",
+      "title": "Flower Florists",
+      "by": "By",
+      "span": "Shopify Team HasTheme / August 12, 2020",
+      "lorem": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid...",
+      "footer": " Continute Reading",
+      "count": "0"
+    },
+    {
+      "img": "/images/blog-03.jpg",
+      "alt": "Blog Image",
+      "title": "Flower Power",
+      "by": "By",
+      "span": "Shopify Team HasTheme / August 12, 2020",
+      "lorem": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid...",
+      "footer": " Continute Reading",
+      "count": "0"
+    }
+  ],
+  "logos": [
+    {
+      "img": "/images/brand-1.jpg",
+      "alt": "Logo Variable"
+    },
+    {
+      "img": "/images/brand-2.jpg",
+      "alt": "Logo Variable"
+    },
+    {
+      "img": "/images/brand-3.jpg",
+      "alt": "Logo Variable"
+    },
+    {
+      "img": "/images/brand-4.jpg",
+      "alt": "Logo Variable"
+    },
+    {
+      "img": "/images/brand-5.jpg",
+      "alt": "Logo Variable"
+    },
+    {
+      "img": "/images/brand-6.jpg",
+      "alt": "Logo Variable"
+    }
+  ],
+  "singles": [
+    {
+      "img": "/images/product-2.jpg",
+      "alt": "Single-product",
+      "span": "-36%"
+    },
+    {
+      "img": "/images/product-3.jpg",
+      "alt": "Single-product",
+      "span": "-36%"
+    },
+    {
+      "img": "/images/product-4.jpg",
+      "alt": "Single-product",
+      "span": "-36%"
+    }
+  ]
+}

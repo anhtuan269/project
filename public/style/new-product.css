@@ -37,6 +37,27 @@
     .new .container .info .owl-theme .owl-nav .owl-next:hover {
         background: none!important;
     }
+    .new .container .info  .product .image .countdown {
+        display: none;
+    }
+    .new .container .info .count-down .product .image .countdown {
+        display: block;
+    }
+    .new .container .info  .product .image .discount {
+        display: none;
+    }
+    .new .container .info .has-discount .product .image .discount {
+        display: block;
+    }
+    .new .container .info  .product .image .soldout {
+        display: none;
+    }
+    .new .container .info .has-soldout .product .image .soldout {
+        display: block;
+    }
+    .new .container .info .has-old-price .product .product-content .price .old  {
+        display: none;
+    }
     .new .container .info .owl-theme .owl-nav .owl-next {
         position: absolute;
         top: 50%;

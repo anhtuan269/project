@@ -20,6 +20,34 @@
         display: flex;
         justify-content: center;
     }
+    .feature .container .info .not-countdown .product .image .countdown {
+        display: none;
+    }
+    .feature .container .info .not-discount .product .image .discount {
+        display: none;
+    }
+    
+    .feature .container .info .has-old-price .product .product-content .price .old  {
+        display: none;
+    }
+    .feature .container .info  .product .image .countdown {
+        display: none;
+    }
+    .feature .container .info .count-down .product .image .countdown {
+        display: block;
+    }
+    .feature .container .info  .product .image .discount {
+        display: none;
+    }
+    .feature .container .info .has-discount .product .image .discount {
+        display: block;
+    }
+    .feature .container .info  .product .image .soldout {
+        display: none;
+    }
+    .feature .container .info .has-soldout .product .image .soldout {
+        display: block;
+    }
     .feature .container .info .chose ul li a {
         display: inline-block;
         font-size: 14px;

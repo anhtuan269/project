@@ -11,8 +11,8 @@
         align-items: center;
         position: relative;
     }
-    .slider .slide .slide-2 {
-        background: url(/images/slider-2.jpg) no-repeat scroll ;
+    .slider .slide .owl-stage .owl-item.slide2 .single-slider.slide-1 {
+        background: url(/images/slider-2.jpg) no-repeat scroll!important ;
         width: 100%;
         background-position: left center;
         background-size:cover;
@@ -91,9 +91,9 @@
         height:610px;
         background-position: center center;
     }
-    .slider .slide .slide-2 {
+    .slider .slide .owl-stage .owl-item.slide2 .single-slider.slide-1  {
         height:610px;
-        background-position: center center;
+        background-position: center center!important;
     }
    
     .slider .slide .single-slider .content h2 {
@@ -117,7 +117,7 @@
     .slider .slide .slide-1 {
         height:738px;
     }
-    .slider .slide .slide-2 {
+    .slider .slide .owl-stage .owl-item.slide2 .single-slider.slide-1  {
         height:738px;
     }
     .slider .owl-theme .owl-dots {

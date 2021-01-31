@@ -1,5 +1,8 @@
 var express = require('express');
 var app = express();
+var db = require('./db');
+var axios = require('axios').default;
+var axios = require('axios');
 
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
@@ -41,7 +44,37 @@ app.get('/checkout.html', function (req, res) {
 app.get('/empty-cart.html', function (req, res) {
     res.render('empty-cart.html/index');
 });
+app.get('/banners', (req, res) => {
+    const banners = db.get('banners').value();
+    res.json(banners);
+});
+app.get('/banners', (req, res) => {
+    const banners = db.get('banners').value();
+    res.json(banners);
+});
+app.get('/products', (req, res) => {
+    const products = db.get('products').value();
+    res.json(products);
+});
+app.get('/slides', (req, res) => {
+    const slides = db.get('slides').value();
+    res.json(slides);
+});
+app.get('/blogs', (req, res) => {
+    const blogs = db.get('blogs').value();
+    res.json(blogs);
+});
+app.get('/logos', (req, res) => {
+    const logos = db.get('logos').value();
+    res.json(logos);
+});
+app.get('/singles', (req, res) => {
+    const singles = db.get('singles').value();
+    res.json(singles);
+});
 
+
+// ajax 
 
 app.listen(port, function () {
     console.log('server listening on port' + ' ' + port)
